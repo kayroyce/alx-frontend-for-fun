@@ -536,7 +536,7 @@
 }
 
 .hero-article::before {
-    content: " ";
+    content: "";
     background: rgba(0, 0, 0, 0.8);
     position: absolute;
     top: 0;
@@ -549,7 +549,7 @@
 .hero-article .section-inner {
     text-align: center;
     align-items: center;
-    z-index: 2;
+    min-height: 40vh;
 }
 
 .hero-article .section-body {
