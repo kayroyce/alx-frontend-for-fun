@@ -1,0 +1,52 @@
+:root {
+    --box: white;
+    --box1_color: lime;
+    --box2_color: lightskyblue;
+    --box3_color: darkblue;
+    --box4_color: purple;
+    --box5_color: Orange;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+
+.box {
+    color: var(--box);
+    text-align: center;
+}
+
+.box1 {
+    background: var(--box1_color);
+    flex-basis: 8%;
+    font-size: 3rem;
+}
+
+.box2 {
+    background: var(--box2_color);
+    flex-basis: 17%;
+    font-size: 5.5rem;
+}
+
+.box3 {
+    background: var(--box3_color);
+    flex-basis: 26%;
+    font-size: 8rem;
+}
+
+.box4 {
+    background: var(--box4_color);
+    flex-basis: 17%;
+    font-size: 5.5rem;
+}
+
+.box5 {
+    background: var(--box5_color);
+    flex-basis: 8%;
+    font-size: 3rem;
+}
