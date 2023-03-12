@@ -1,0 +1,22 @@
+a {
+    position: relative;
+    color: brown;
+    text-decoration: none;
+  }
+  
+  a::after {
+    position: absolute;
+    content: "";
+    background: brown;
+    bottom: 0;
+    left: 0;
+    height: 4px;
+    width: 0%;
+    transition: 0.70s ease-in-out;
+  }
+  
+  a:hover::after {
+    width: 100%;
+    left: 0;
+  }
+  

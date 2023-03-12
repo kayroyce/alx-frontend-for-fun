@@ -1,0 +1,49 @@
+:root {
+    --color-black: #080808;
+    --color-white: #cccccc;
+}
+
+ul {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.i-html, .i-css, .i-js {
+    border-radius: 25px;
+    height: 24rem;
+    width: 18rem;
+    border: 1rem;
+    font-style: oblique;
+    display: flex;
+    justify-content: center;
+    align-items: space-evenly;
+    flex-direction: column;
+}
+
+.i-html {
+    background-image: url("images/html.png");
+    background-color: #cccccc;
+    align-items: center;
+    border: 2px solid rgb(88, 8, 8);
+}
+
+.i-css {
+    background-image: url("images/css.png");
+    background-color: #cccccc;
+    border: 2px solid rgb(88, 8, 8);
+}
+
+.i-js {
+    background-image: url("images/js.png");
+    background-color: #cccccc;
+    border: 2px solid rgb(88, 8, 8);
+}
