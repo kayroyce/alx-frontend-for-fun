@@ -1,0 +1,16 @@
+/*Write a Sass file that assigns colors*/
+$priColor: #3D3D3D;
+$secColor: #6D6D6D;
+
+body {
+    color: $priColor;
+    background-color: $secColor;
+}
+
+p {
+    color: $priColor;
+}
+
+h2 {
+    background-color: $secColor;
+}
